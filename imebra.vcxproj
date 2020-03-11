@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7F75B91F-2481-3CCE-BFAC-6A31F63D20BA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>imebra</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\PACS\graduation_project\artifacts\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">imebra.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">imebra</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\PACS\graduation_project\artifacts\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">imebra.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">imebra</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\root\source\repos\imebra_simple\library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;IMEBRA_USE_WINDOWS_CHARSET;IMEBRA_DLL;IMEBRA_DLL_EXPORTS;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;IMEBRA_USE_WINDOWS_CHARSET;IMEBRA_DLL;IMEBRA_DLL_EXPORTS;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\root\source\repos\imebra_simple\library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\root\source\repos\imebra_simple\library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\root\source\repos\imebra_simple\library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;IMEBRA_USE_WINDOWS_CHARSET;IMEBRA_DLL;IMEBRA_DLL_EXPORTS;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;IMEBRA_USE_WINDOWS_CHARSET;IMEBRA_DLL;IMEBRA_DLL_EXPORTS;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\root\source\repos\imebra_simple\library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\root\source\repos\imebra_simple\library\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\root\source\repos\imebra_simple\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/root/source/repos/imebra_simple/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Cmake\cmake-3.15.3-win64-x64\bin\cmake.exe -SC:/Users/root/source/repos/imebra_simple -BE:/PACS/graduation_project/artifacts --check-stamp-file E:/PACS/graduation_project/artifacts/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\3.15.3\CMakeCCompiler.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\3.15.3\CMakeSystem.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\feature_tests.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\PACS\graduation_project\artifacts\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/root/source/repos/imebra_simple/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Cmake\cmake-3.15.3-win64-x64\bin\cmake.exe -SC:/Users/root/source/repos/imebra_simple -BE:/PACS/graduation_project/artifacts --check-stamp-file E:/PACS/graduation_project/artifacts/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCCompilerABI.c;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeSystem.cmake.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Cmake\cmake-3.15.3-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\3.15.3\CMakeCCompiler.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\3.15.3\CMakeSystem.cmake;E:\PACS\graduation_project\artifacts\CMakeFiles\feature_tests.cxx;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\PACS\graduation_project\artifacts\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\LUTImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME1ToMONOCHROME2Impl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME1ToRGBImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME2ToRGBImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME2ToYBRFULLImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\PALETTECOLORToRGBImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToMONOCHROME2Impl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRFULLImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRPARTIALImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRRCTImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\VOIDescriptionImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\VOILUTImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRFULLToMONOCHROME2Impl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRFULLToRGBImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRPARTIALToRGBImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRRCTToRGBImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\acseImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\ageImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseSequenceStreamImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseStreamImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseUidGeneratorImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\bufferImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionBaseImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionICUImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionIconvImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionJavaImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionWindowsImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\codecFactoryImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\colorTransformImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\colorTransformsFactoryImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateTimeBaseImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateTimeImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerNumericImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringAEImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringASImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringCSImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringDSImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringISImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringLOImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringLTImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringPNImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringSHImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringSTImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUCImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUIImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringURImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUTImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUnicodeImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerTimeImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataSetImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dateImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDictImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDirImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomNativeImageCodecImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomRLEImageCodecImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomStreamCodecImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dimseImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\drawBitmapImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\exceptionImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\fileStreamImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\huffmanTableImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imageCodecImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imageImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpeg2000ImageCodecImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegCodecBaseImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegImageCodecImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegStreamCodecImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\logging.cpp">
+      <ObjectFileName>$(IntDir)/library/implementation/logging.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\memoryImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\memoryStreamImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\modalityVOILUTImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\overlayImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\pipeImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\randomUidGeneratorImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\serialNumberUidGeneratorImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamCodecImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamControllerImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamReaderImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamWriterImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\tcpSequenceStreamImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformHighBitImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformsChainImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\uidGeneratorFactoryImpl.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\logging.mm">
+      <ObjectFileName>$(IntDir)/library/implementation/logging.mm.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\LUTImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME1ToMONOCHROME2Impl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME1ToRGBImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME2ToRGBImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME2ToYBRFULLImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\PALETTECOLORToRGBImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToMONOCHROME2Impl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRFULLImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRPARTIALImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRRCTImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\VOIDescriptionImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\VOILUTImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRFULLToMONOCHROME2Impl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRFULLToRGBImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRPARTIALToRGBImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRRCTToRGBImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\acseImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\ageImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseSequenceStreamImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseStreamImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseUidGeneratorImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\bufferImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\bufferStreamImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionBaseImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionICUImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionIconvImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionJavaImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionWindowsImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\codecFactoryImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\colorTransformImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\colorTransformsFactoryImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\configurationImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateTimeBaseImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateTimeImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerNumericImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringAEImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringASImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringCSImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringDSImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringISImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringLOImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringLTImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringPNImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringSHImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringSTImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUCImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUIImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringURImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUTImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUnicodeImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerTimeImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataSetImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dateImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDescriptions.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDictImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDirImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomNativeImageCodecImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomRLEImageCodecImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomStreamCodecImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dimseImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\drawBitmapImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\exceptionImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\fileStreamImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\huffmanTableImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imageCodecImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imageImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imebraDocImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpeg2000ImageCodecImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegCodecBaseImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegImageCodecImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegStreamCodecImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\logging.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\memoryImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\memoryStreamImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\modalityVOILUTImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\nullStreamImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\overlayImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\patientNameImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\pipeImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\randomUidGeneratorImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\serialNumberUidGeneratorImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamCodecImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamControllerImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamReaderImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamWriterImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\tcpSequenceStreamImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformHighBitImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformsChainImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\uidGeneratorFactoryImpl.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\src\onload.h" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\VOIDescription.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\VOILUT.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\acse.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\age.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\baseStreamInput.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\baseStreamOutput.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\baseUidGenerator.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\codecFactory.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\colorTransformsFactory.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dataSet.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\date.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dicomDictionary.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dicomDir.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dicomDirEntry.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dimse.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\drawBitmap.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\exceptions.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\fileStreamInput.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\fileStreamOutput.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\image.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\lut.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\memory.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\memoryPool.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\memoryStreamInput.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\memoryStreamOutput.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\modalityVOILUT.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\mutableMemory.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\onload.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\overlay.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\patientName.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\pipeStream.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\randomUidGenerator.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\readingDataHandler.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\readingDataHandlerNumeric.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\serialNumberUidGenerator.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\streamReader.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\streamWriter.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tag.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tagId.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tcpAddress.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tcpListener.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tcpStream.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\transform.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\transformHighBit.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\transformsChain.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\uidGeneratorFactory.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\writingDataHandler.cpp" />
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\writingDataHandlerNumeric.cpp" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\VOIDescription.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\VOILUT.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\acse.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\age.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\baseStreamInput.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\baseStreamOutput.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\baseUidGenerator.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\codecFactory.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\colorTransformsFactory.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dataSet.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\date.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\definitions.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dicomDefinitions.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dicomDictionary.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dicomDir.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dicomDirEntry.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dimse.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\drawBitmap.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\exceptions.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\fileStreamInput.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\fileStreamOutput.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\image.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\imebra.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\lut.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\memory.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\memoryPool.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\memoryStreamInput.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\memoryStreamOutput.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\modalityVOILUT.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\mutableMemory.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\overlay.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\patientName.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\pipeStream.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\randomUidGenerator.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\readingDataHandler.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\readingDataHandlerNumeric.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\serialNumberUidGenerator.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\streamReader.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\streamWriter.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tag.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tagId.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tcpAddress.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tcpListener.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tcpStream.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\transform.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\transformHighBit.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\transformsChain.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\uidGeneratorFactory.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\uidsEnumeration.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\writingDataHandler.h" />
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\writingDataHandlerNumeric.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\PACS\graduation_project\artifacts\ZERO_CHECK.vcxproj">
+      <Project>{AD4C79D7-869E-3702-A9F6-F17FCE3DC645}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

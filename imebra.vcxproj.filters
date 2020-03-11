@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\LUTImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME1ToMONOCHROME2Impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME1ToRGBImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME2ToRGBImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME2ToYBRFULLImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\PALETTECOLORToRGBImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToMONOCHROME2Impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRFULLImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRPARTIALImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRRCTImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\VOIDescriptionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\VOILUTImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRFULLToMONOCHROME2Impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRFULLToRGBImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRPARTIALToRGBImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRRCTToRGBImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\acseImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\ageImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseSequenceStreamImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseStreamImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseUidGeneratorImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\bufferImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionBaseImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionICUImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionIconvImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionJavaImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionWindowsImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\codecFactoryImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\colorTransformImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\colorTransformsFactoryImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateTimeBaseImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateTimeImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerNumericImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringAEImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringASImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringCSImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringDSImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringISImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringLOImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringLTImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringPNImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringSHImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringSTImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUCImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUIImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringURImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUTImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUnicodeImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerTimeImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataSetImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dateImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDictImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDirImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomNativeImageCodecImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomRLEImageCodecImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomStreamCodecImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dimseImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\drawBitmapImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\exceptionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\fileStreamImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\huffmanTableImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imageCodecImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imageImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpeg2000ImageCodecImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegCodecBaseImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegImageCodecImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegStreamCodecImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\memoryImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\memoryStreamImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\modalityVOILUTImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\overlayImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\pipeImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\randomUidGeneratorImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\serialNumberUidGeneratorImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamCodecImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamControllerImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamReaderImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamWriterImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\tcpSequenceStreamImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformHighBitImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformsChainImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\uidGeneratorFactoryImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\implementation\logging.mm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\VOIDescription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\VOILUT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\acse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\age.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\baseStreamInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\baseStreamOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\baseUidGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\codecFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\colorTransformsFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dataSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\date.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dicomDictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dicomDir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dicomDirEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\dimse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\drawBitmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\fileStreamInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\fileStreamOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\lut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\memoryPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\memoryStreamInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\memoryStreamOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\modalityVOILUT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\mutableMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\onload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\patientName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\pipeStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\randomUidGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\readingDataHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\readingDataHandlerNumeric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\serialNumberUidGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\streamReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\streamWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tagId.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tcpAddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tcpListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\tcpStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\transformHighBit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\transformsChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\uidGeneratorFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\writingDataHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\root\source\repos\imebra_simple\library\src\writingDataHandlerNumeric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\LUTImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME1ToMONOCHROME2Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME1ToRGBImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME2ToRGBImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\MONOCHROME2ToYBRFULLImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\PALETTECOLORToRGBImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToMONOCHROME2Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRFULLImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRPARTIALImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\RGBToYBRRCTImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\VOIDescriptionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\VOILUTImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRFULLToMONOCHROME2Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRFULLToRGBImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRPARTIALToRGBImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\YBRRCTToRGBImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\acseImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\ageImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseSequenceStreamImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseStreamImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\baseUidGeneratorImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\bufferImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\bufferStreamImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionBaseImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionICUImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionIconvImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionJavaImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\charsetConversionWindowsImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\codecFactoryImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\colorTransformImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\colorTransformsFactoryImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\configurationImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateTimeBaseImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerDateTimeImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerNumericImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringAEImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringASImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringCSImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringDSImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringISImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringLOImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringLTImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringPNImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringSHImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringSTImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUCImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUIImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringURImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUTImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerStringUnicodeImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataHandlerTimeImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dataSetImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dateImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDescriptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDictImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomDirImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomNativeImageCodecImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomRLEImageCodecImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dicomStreamCodecImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\dimseImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\drawBitmapImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\exceptionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\fileStreamImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\huffmanTableImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imageCodecImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imageImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\imebraDocImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpeg2000ImageCodecImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegCodecBaseImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegImageCodecImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\jpegStreamCodecImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\memoryImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\memoryStreamImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\modalityVOILUTImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\nullStreamImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\overlayImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\patientNameImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\pipeImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\randomUidGeneratorImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\serialNumberUidGeneratorImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamCodecImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamControllerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamReaderImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\streamWriterImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\tcpSequenceStreamImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformHighBitImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\transformsChainImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\implementation\uidGeneratorFactoryImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\src\onload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\VOIDescription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\VOILUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\acse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\age.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\baseStreamInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\baseStreamOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\baseUidGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\codecFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\colorTransformsFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dicomDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dicomDictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dicomDir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dicomDirEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\dimse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\drawBitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\fileStreamInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\fileStreamOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\imebra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\lut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\memoryPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\memoryStreamInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\memoryStreamOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\modalityVOILUT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\mutableMemory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\patientName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\pipeStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\randomUidGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\readingDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\readingDataHandlerNumeric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\serialNumberUidGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\streamReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\streamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tagId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tcpAddress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tcpListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\tcpStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\transformHighBit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\transformsChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\uidGeneratorFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\uidsEnumeration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\writingDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\root\source\repos\imebra_simple\library\include\imebra\writingDataHandlerNumeric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\root\source\repos\imebra_simple\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8429E175-C983-3BDA-9834-DF1EBF152ABD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A6DC2389-AAF6-3553-86DF-E197182A2C03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

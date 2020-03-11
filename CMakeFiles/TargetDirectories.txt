@@ -1,0 +1,7 @@
+E:/PACS/graduation_project/artifacts/CMakeFiles/movescu.dir
+E:/PACS/graduation_project/artifacts/CMakeFiles/imebra.dir
+E:/PACS/graduation_project/artifacts/CMakeFiles/storescu.dir
+E:/PACS/graduation_project/artifacts/CMakeFiles/storescp.dir
+E:/PACS/graduation_project/artifacts/CMakeFiles/findscu.dir
+E:/PACS/graduation_project/artifacts/CMakeFiles/ALL_BUILD.dir
+E:/PACS/graduation_project/artifacts/CMakeFiles/ZERO_CHECK.dir
